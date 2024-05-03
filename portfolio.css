@@ -1,0 +1,229 @@
+*{
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.one{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    border: 15px solid  rgb(0, 0, 0);
+}
+
+#logo{
+    font-size: 100px;
+    transition: 0.3s;
+    padding-left: 40px;
+}
+nav{
+   display: flex;
+   width: 100%;
+   height: 90px;
+   margin: auto;
+   padding: 10px 0;
+   align-items: center;
+   justify-content: space-between;
+   background:rgb(117, 119, 123);
+   color:black;
+
+}
+nav ul button{
+    list-style: none; 
+    margin: 10px 1px;
+    display: inline-block;
+    transition: left 0.3s; 
+    
+  
+      
+}
+nav ul  button{
+    text-decoration: none;
+    color:black ;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    font-weight: 600;
+    color: black;
+    transition:0.3s ;
+    box-shadow: 5px 5px 3px rgb(167, 87, 167);
+
+}
+
+nav ul button:hover{
+    color:crimson;
+    border-top-color: black;
+    border-bottom-color:black;
+    color: black;
+}
+.detel{
+    margin-top: 10%;
+    margin-left: 8%;
+}
+.detel p{
+    font-size: 20px;
+    font-weight: 500px;
+    padding-bottom: 10px;
+}
+.detel h1{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 30px ;
+}
+p{
+    font-size: 20px;
+}
+span{
+    color: rgb(66, 67, 71);
+
+}
+.detel p{
+    color:black;
+    line-height: 22px;
+    font-weight: 200;
+    font-size: larger;
+}
+.detel a{
+    background-color:rgb(66, 67,71);
+    padding: 10px 18px;
+    font-weight: bold;
+    text-decoration: solid;
+    color: rgb(235, 224, 224);
+    display: inline-block;
+    margin: 30px 10px ;
+    border-radius:5px ;
+    box-shadow: 15px 5px 5px rgb(95, 95, 190);
+}
+.images{
+    display: grid;
+    place-items: center;
+    
+}
+.images img{
+    height: 75%;
+    position: absolute;
+    left:75%;
+    top:15%;
+    transform: translateX(-50%);
+    transition: bottom 1s ,right 1s ;
+    width: min(30rem,50%);
+    border-radius: 100%;
+    
+}
+.shape{
+    width: 50%;
+    height: 30px;
+    bottom: 30px;
+    opacity: 10%;
+}
+.picture{
+    position: relative;
+    height: 10px;
+    width: 20px;
+    padding-top: 30px;
+   background-size: cover;
+   mix-blend-mode: darken;
+   background-position: center;
+   /* background-color: #4371c0; */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.intro-text h1 {
+    margin: 10px 0;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #333;
+}
+section h3{
+    font-size: 40px;
+}
+section h4{
+    font-size: 20px;
+}
+section h5{
+    font-size: 20px;
+}
+section ul{
+    font-size: 20px;
+}
+.about{
+    background-color:white;
+    border-color: black;
+    border-radius: 10px;
+
+
+} 
+#aboutimg{
+    margin-left: 500px;
+    box-shadow: 10px 5px 10px rgb(37, 82, 31);
+}
+
+#aboutwords{
+    padding: 20px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+footer {
+    background-color:black;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.button-73 {
+    appearance: none;
+    background-color:black;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #dadada;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #3d1203;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;}
+    }
+
